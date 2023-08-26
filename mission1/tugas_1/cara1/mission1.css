@@ -1,0 +1,101 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  font-size: 1.5em;
+  color: white;
+}
+
+.BiruTua {
+  background-color: blue;
+  width: 150%;
+  height: 330px;
+}
+.Kuning {
+  background-color: yellow;
+  width: 150%;
+  height: 110px;
+}
+.Merah {
+  background-color: red;
+  width: 150%;
+  height: 110px;
+  margin-top: -32.3%;
+}
+
+.Hitam {
+  background-color: black;
+  width: 250%;
+  height: 110px;
+  margin-left: 50%;
+}
+.Putih {
+  background-color: white;
+  margin-left: 80%;
+  width: 60%;
+  margin-top: 32%;
+}
+.orange {
+  background-color: pink;
+  width: 60%;
+  height: 110px;
+  margin-top: 32%;
+  margin-left: 40%;
+}
+.pink {
+  background-color: brown;
+  margin-left: 50%;
+  margin-top: -64.5%;
+  width: 130%;
+  height: 220px;
+}
+.yellow {
+  background-color: purple;
+  width: 130%;
+  height: 220px;
+  margin-left: -50%;
+}
+.teal {
+  background-color: teal;
+  width: 60%;
+  margin-left: 40%;
+  margin-top: -32.5%;
+}
+.gray {
+  background-color: green;
+  margin-left: -100%;
+  width: 150%;
+}
+.cyan {
+  background-color: orange;
+  margin-left: -50%;
+  width: 130%;
+}
+.lime {
+  background-color: lime;
+  margin-left: -20%;
+  margin-top: -32.8%;
+  height: 220px;
+  width: 125%;
+}

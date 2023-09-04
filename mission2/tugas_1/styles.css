@@ -1,0 +1,59 @@
+body {
+  background-color: antiquewhite;
+}
+
+.container-wrapper {
+  background-image: url("assets/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.marquee {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 70px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000000;
+  margin-left: 20px;
+}
+
+.cashier-page {
+  background-color: antiquewhite;
+}
+
+.p-4.rounded-lg.text-center {
+  transition: transform 0.2s ease-in-out; /* Efek transisi */
+}
+
+.p-4.rounded-lg.text-center:hover {
+  transform: scale(1.05); /* Memperbesar elemen saat hover */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Bayangan saat hover */
+}
